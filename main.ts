@@ -3,7 +3,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "Promotion recommended: delegates his own performance review to the only employee he never pays.";
+  "Promotion recommended: he delegated his review to the only employee paid in exposure.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LINE, "utf8");
